@@ -12,7 +12,7 @@ print("777".isdigit())
 print("    ".isspace())
 
 # e
-list_to_str: list[str] = ["N","I","N","J","A"]
+list_to_str: list[str] = ["N", "I", "N", "J", "A"]
 print("".join(list_to_str))
 
 # f
@@ -24,7 +24,7 @@ print("e" in text.lower() or text.upper())
 
 # h
 word: str = input("Enter a random word:")
-comp_list: list[str] = [letter for letter in word.upper() if letter.isalpha() ]
+comp_list: list[str] = [letter for letter in word.upper() if letter.isalpha()]
 print(comp_list)
 
 # STOP
